@@ -12,7 +12,9 @@ original functionality of the code (allowing Steve to choose what year he wanted
 Steve's goal was to look at  the return percentage on the stock DQ. Based off the code that I wrote, in 2017 DQ was up 199.4%. However,
 looking at DQ's return in 2018, it showed it at -62.6%. Looking at the other stocks that Steve provided, ENPH and RUN were the only two
 that posted a gain on return in both 2017 and 2018, with ENPH increasing 199.4% in 2017 and 81.9% in 2018 and RUN increasing 5.5% in 2017 and 84.0% in 2018. Running my original code for 2017 took 0.34375 seconds, while running it for 2018 took 0.3515625 seconds. 
+
 ![2017_Original](https://github.com/swlim314/Stock-Analysis-Week-2/blob/f1f22e6bb862cb403039bac743d3d1f9fc71bec6/VBA_Challenge_2017_original.png)
+
 ![2018_Original](https://github.com/swlim314/Stock-Analysis-Week-2/blob/f1f22e6bb862cb403039bac743d3d1f9fc71bec6/VBA_Challenge_2018_original.png)
 The new code required additional arrays to deal with stock volume, Starting prices, and Ending prices. Those were added in my code as 
 **Dim tickerVolumes(12) As Long**
