@@ -17,8 +17,8 @@ that posted a gain on return in both 2017 and 2018, with ENPH increasing 199.4% 
 
 ![2018_Original](https://github.com/swlim314/Stock-Analysis-Week-2/blob/f1f22e6bb862cb403039bac743d3d1f9fc71bec6/VBA_Challenge_2018_original.png)
 The new code required additional arrays to deal with stock volume, Starting prices, and Ending prices. Those were added in my code as 
-**Dim tickerVolumes(12) As Long**
-**Dim tickerStartingPrices(12) As Single**
+**Dim tickerVolumes(12) As Long**,
+**Dim tickerStartingPrices(12) As Single**,
 **Dim tickerEndingPrices(12) As Single**
 The variable tickerIndex was also intiated to use to call out the specific index of each of those arrays. With the code updated with
 additional arrays, and using for loops, the time to analyze 2017 stocks went down to 0.0625 seconds, and the time to analyze 2018 stocks also took 0.0625 seconds.
