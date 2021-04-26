@@ -16,6 +16,7 @@ that posted a gain on return in both 2017 and 2018, with ENPH increasing 199.4% 
 ![2017_Original](https://github.com/swlim314/Stock-Analysis-Week-2/blob/f1f22e6bb862cb403039bac743d3d1f9fc71bec6/VBA_Challenge_2017_original.png)
 
 ![2018_Original](https://github.com/swlim314/Stock-Analysis-Week-2/blob/f1f22e6bb862cb403039bac743d3d1f9fc71bec6/VBA_Challenge_2018_original.png)
+
 The new code required additional arrays to deal with stock volume, Starting prices, and Ending prices. Those were added in my code as 
 **Dim tickerVolumes(12) As Long**,
 **Dim tickerStartingPrices(12) As Single**,
