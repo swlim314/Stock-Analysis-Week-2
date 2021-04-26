@@ -43,4 +43,4 @@ refactoring the code involved additional troubleshooting to make sure all the va
 were more moving parts that needed to be kept track of. The original code only used one array, and due to that had fewer lines of code. Although it was slower in its run time and not well suite for large data sets, it didn't require as many call backs to arrays and value sets.
 
 ## References
-For the Module 2 challenge, I worked with **chkCreate**.
+For the Module 2 challenge, I worked with **@chkCreate**.
